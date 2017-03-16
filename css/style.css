@@ -1,0 +1,76 @@
+html, body, .container-fluid {
+  margin: 0;
+  padding: 0; }
+
+.header-wrap .navbar.nav-wrap {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  height: 89px; }
+  .header-wrap .navbar.nav-wrap .nav-wrap-inner {
+    max-width: 1250px;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto; }
+    .header-wrap .navbar.nav-wrap .nav-wrap-inner .main-nav {
+      float: right; }
+      .header-wrap .navbar.nav-wrap .nav-wrap-inner .main-nav li a {
+        line-height: 34px;
+        padding: 27.5px 21px; }
+
+.home-wrap .home-wrap-content {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto; }
+
+.hwc-intro {
+  min-height: 200px; }
+  .hwc-intro .hwc-intro-main {
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+    height: 100%; }
+    .hwc-intro .hwc-intro-main .home-article-main {
+      background: blue;
+      overflow: hidden;
+      height: 100%; }
+  .hwc-intro .hwc-intro-sec {
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    height: 100%; }
+    .hwc-intro .hwc-intro-sec .hwc-intro-sec-inner {
+      margin: 0;
+      padding: 0;
+      height: 100%; }
+      .hwc-intro .hwc-intro-sec .hwc-intro-sec-inner .has-t {
+        padding-bottom: 5px;
+        height: 50%; }
+      .hwc-intro .hwc-intro-sec .hwc-intro-sec-inner .has-b {
+        padding-top: 5px;
+        height: 50%; }
+      .hwc-intro .hwc-intro-sec .hwc-intro-sec-inner .home-article-secondary {
+        overflow: hidden;
+        height: 100%; }
+    .hwc-intro .hwc-intro-sec .hisi-l {
+      padding-right: 5px; }
+    .hwc-intro .hwc-intro-sec .hisi-r {
+      padding-left: 5px; }
+
+.footer-wrap .footer-content {
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  height: 55px; }
+  .footer-wrap .footer-content .footcnt-left {
+    float: left;
+    height: 100%; }
+  .footer-wrap .footer-content .footcnt-right {
+    float: right;
+    height: 100%; }
+    .footer-wrap .footer-content .footcnt-right .footcnt-r-img {
+      display: inline-block;
+      margin: 18px 0 18px 10px; }
+
+/*# sourceMappingURL=style.css.map */
