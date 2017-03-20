@@ -14,6 +14,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Информационен портал</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
@@ -24,13 +26,17 @@
             <nav class="navbar navbar-default nav-wrap">
                 <div class="container-fluid nav-wrap-inner">
                     <div class="navbar-header nav-logo">
-                        <a href="index.php">Site Logo</a>
+                        <a href="index.php">
+                            <img src="images/info-portal-logo.png">
+                        </a>
                     </div>
                     <ul class="nav navbar-nav main-nav">
-                        <li><a href="#">НОВИНИ</a></li>
-                        <li><a href="#">СЪБИТИЯ</a></li>
-                        <li><a href="#">ОБЩЕСТВО</a></li>
-                        <li><a href="#">СПОДЕЛИ</a></li>
+                        <!-- <li><a href="events.php">СЪБИТИЯ</a></li> -->
+                        <li><a href="index.php">НАЧАЛО</a></li>
+                        <li><a href="news.php">НОВИНИ</a></li>
+                        <!-- <li><a href="interesting.php">ИНТЕРЕСНО</a></li>-->
+                        <!-- <li><a href="#">СПОДЕЛИ</a></li> -->
+                        <li><a href="contacts.php">КОНТАКТИ</a></li>
                     </ul>
                 </div>
             </nav>
